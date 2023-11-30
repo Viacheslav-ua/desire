@@ -1,0 +1,36 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'libs';
+@import 'global';
+
+.header {
+  &__inner {
+    display: flex;
+    justify-content :space-between;
+    align-items: center;
+    height: 120px;
+    padding: 45px 0;
+  }
+}
+
+.logo {
+  margin: 0 auto;
+}
+.header__btn {
+  margin-left: 25px;
+}
+
+.menu {
+  display: flex;
+    &__list {
+      padding-right: 15px;
+      display: flex;
+      justify-content: end;
+      align-items: center;
+    }
+    &__list-item{
+      padding-right: 35px;
+      padding-left: 45px;
+    }
+}
