@@ -30,6 +30,7 @@ blockquote,
 dl,
 dd {
   margin: 0;
+  font-size: inherit;
 }
 
 ul[class] {
@@ -49,8 +50,10 @@ select {
 }
 
 button {
-  background-color: inherit;
+  background-color: transparent  ;
   border: none;
+  padding: 0;
+  cursor: pointer;
 }
 
 a{
