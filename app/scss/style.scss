@@ -188,8 +188,14 @@
   max-width: 694px;
   width: 100%;
   background-color: #fff;
+  box-shadow: -1px -5px 7px 0px #bbb;
   padding-top: 40px;
   z-index: 1;
+  transition: all .8s;
+  
+  &.rightside-menu--hide {
+    transform: translateX(200%);
+  }
   &__close {
     background-color: transparent;
     border: none;
