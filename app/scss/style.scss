@@ -217,7 +217,22 @@
     @extend %title-font;
     line-height: 1.41;
     color: $black;
-    margin-bottom: 7px;
+    position: relative;
+    margin-bottom: 17px;
+    padding-bottom: 10px;
+    &::after {
+      content: '';
+      position: absolute;
+      display: inline-block;
+      bottom: 0;
+      max-width: 252px;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+      background-color: #6d7278;
+      height: 1px;
+
+    }
   }
   &__text {
     margin-bottom: 75px;
@@ -225,4 +240,8 @@
   &__img {
     max-width: 485px;
   }
+}
+
+.top {
+  
 }

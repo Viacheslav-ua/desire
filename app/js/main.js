@@ -6,4 +6,8 @@ $(function () {
   $('.rightside-menu__close').on('click', function() {
     $('.rightside-menu').addClass('rightside-menu--hide')
   })
+
+  $('.top__slider').slick({
+
+  })
 })
