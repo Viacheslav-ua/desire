@@ -242,7 +242,19 @@
 }
 
 .top {
-  &__slider-item {
+  &__inner {
+    padding-bottom: 44px;
+    background-color: #dfdfdf;
+    
+  }
+  &__slider {
+    background-image: url(../images/bg-top.jpg);
+    height: 722px;
+    width: 100%;
+    
+  }
+  
+    &__slider-item {
     display: flex !important;
     justify-content: center;
     align-items: center;
@@ -251,11 +263,6 @@
     margin-left: -9%;
     object-fit: cover;
   }
-  &__inner {
-    // padding-left: 176px;
-    background-color: #a1a1a1;
-  }
-
   &__slider-info {
     max-width: 635px;
     margin-left: 19px;
@@ -282,4 +289,5 @@
   &__slider-text {
     max-width: 585px;
   }
+
 }
